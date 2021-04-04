@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-primary" style="color: white;"><i class="fa fa-user"></i> User Profile <small>Me</small></h1>
+
+
+
+
+  <h1>Your Profile</h1>
+<div class="row">
+  <div class="col-sm-4">
+    <table class="table table-bordered">
+      <tr style="color: white;">
+        <td>User Id</td>
+        <td>12</td>
+      </tr>
+      <tr style="color: white;">
+        <td>Name</td>
+        <td>Mim</td>
+      </tr>
+      <tr style="color: white;">
+        <td>Username</td>
+        <td>Tasnuba Mim</td>
+      </tr>
+      <tr style="color: white;">
+        <td>Email</td>
+        <td>mim@gmail.com</td>
+      </tr>
+
+
+    </table>
+
+  </div>
+
+  <div class="col-sm-2">
+      <a href="">
+        <img class="img-thumbnail" src="images/<?= $user_row['photo'] ?>" alt="">
+      </a>
+
+
+        <br></br>
+
+  </div>
+
+</div>
+
+</body>
+</html>

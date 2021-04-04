@@ -1,0 +1,27 @@
+.error{
+  color:red;
+  font-style: italic;
+  font-weight: 700;
+}
+.content{
+  /* margin-left: 10px; */
+  min-height: 700px;
+  /* background: bisque; */
+  min-width: 108%;
+  color: black;
+}
+.footer-area{
+  background:#F8F8F8;
+  text-align: center;
+  padding: 20px 0;
+  color: #5E5E5E;
+  margin-top: 10px;
+
+}
+.footer-area p{
+  margin: 0;
+}
+
+.row{
+  background-color: brown;
+}
